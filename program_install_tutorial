@@ -89,3 +89,10 @@ tint2
 vim-gnome vlc gnome-icon-theme
 transmission chromium-browser thunar
 git
+
+/////////////////////////////////////
+///Command for better lxde terminal//
+/////////////////////////////////////
+sudo apt-get install lxde-core
+sudo apt-get install xdm
+sudo apt-get install git tmux chromium transmission 
