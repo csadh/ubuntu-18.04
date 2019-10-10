@@ -1,0 +1,91 @@
+https://urukrama.wordpress.com/openbox-guide/
+https://www.youtube.com/watch?v=_FZCXVgiORA
+
+
+//Set up sudo
+apt-get install sudo
+gksudo
+
+//Set up openbox
+sudo apt-get install xorg xdm openbox
+
+//Install lxterminal
+sudo apt-get install lxterminal
+
+//install vnc
+https://www.digitalocean.com/community/tutorials/how-to-set-up-vnc-server-on-debian-8
+sudo apt-get install tightvncserver
+vncserver
+vncserver -kill :1
+
+//install gvim
+sudo apt-get install vim-gnome
+
+//install vlc
+sudo apt-get install vlc 
+
+//install thunar
+sudo apt-get install gnome-icon-theme
+sudo apt-get install thunar
+ Possible missing firmware /lib/firmware/rtl_nic/rtl8107e-2.fw for module r8169
+
+//install chromium
+sudo apt-get install chromium
+
+//install add-repositroy command
+sudo apt-get install software-properties-common
+sudo apt-get install dirmngr
+
+
+//menu
+sudo apt-get install obmenu
+sudo apt-get install obconf
+sudo apt-get install menu
+then recinfigure
+
+//Install tint2
+https://wiki.archlinux.org/index.php/tint2
+sudo apt-get install tint2
+
+//Tarball
+https://www.tecmint.com/18-tar-command-examples-in-linux/
+
+//cpuz
+https://sourceforge.net/projects/cpug/
+
+//Install contrib and non free software
+change source-list file to contrib and non free
+https://wiki.debian.org/SourcesList
+sudo apt-get install linux-firmware-nonfree
+
+//Install realtek firmware
+error was coming during reboot that realtek firware not found, install following
+sudo apt-get install firmware-realtek
+
+//Install torrent client
+sudo apt-get install transmission
+transmission-gtk
+
+
+////////////////////////////////////////////////////////////
+////Compressed command
+////////////////////////////////////////////////////////////
+apt-get install sudo
+gksudo
+
+sudo apt-get install -y software-properties-common dirmngr gnome-icon-theme xorg xdm openbox thunar obmenu tint2 obconf menu tightvncserver vim-gnome vlc chromium lxterminal gcc transmission
+//Install cpu-g
+sudo apt-get install linux-firmware-nonfree
+sudo apt-get install firmware-realtek
+
+sudo apt-get install -y software-properties-common dirmngr       menu   gcc 
+
+//
+ubuntu
+sudo apt-get install xorg xdm openbox
+obmenu obconf 
+tightvncserver 
+tint2
+vim-gnome vlc gnome-icon-theme
+transmission chromium-browser thunar
+git
