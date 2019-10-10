@@ -1,3 +1,11 @@
 #this contains tutorial to setup git on ubuntu server 
-#website ref:
-https://www.geeksforgeeks.org/how-to-install-configure-and-use-git-on-ubuntu/
+#Step-1 to install
+sudo apt-get install git
+#step-2 to configure
+git config –global user.name “your_username”
+git config –global user.email “your_emailid”
+#step-3 clone from web repo
+git clone https://github.com/your_username/myproject.git
+#step-4 to create new repo from linux itself
+git init
+git remote add origin  https://github.com/your_username/myproject.git
